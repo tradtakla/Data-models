@@ -72,6 +72,10 @@
         "source": "/Users/me/.android/build-cache/2d0999ae34e5a9e70f8a5809d00e0c19f79c4859/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/gridview.xml",
+        "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/gridview.xml"
+    },
+    {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/me/.android/build-cache/2d0999ae34e5a9e70f8a5809d00e0c19f79c4859/output/res/layout/abc_select_dialog_material.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/menu.xml",
         "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/menu.xml"
+    },
+    {
+        "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/custom_layout.xml",
+        "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/custom_layout.xml"
     },
     {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",

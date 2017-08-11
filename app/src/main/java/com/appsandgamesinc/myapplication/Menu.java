@@ -36,6 +36,15 @@ public class Menu extends AppCompatActivity
                 startActivity(new Intent(Menu.this, MainActivity.class));
             }
         });
+
+        btnGridview.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(Menu.this, Gridview.class));
+            }
+        });
     }
 
 }

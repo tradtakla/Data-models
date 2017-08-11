@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:2:1-48:13
 	package
 		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/Androi
 		INJECTED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:5:2-39:16
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:5:2-46:15
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/me/.android/build-cache/2d0999ae34e5a9e70f8a5809d00e0c19f79c4859/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/me/.android/build-cache/dc9e20aa9efde105761af51133ef4295b3253a12/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/me/.android/build-cache/94ec63d0f530cd71ec17840c2889ec1ad2ec38fc/output/AndroidManifest.xml:29:5-20
@@ -62,9 +62,9 @@ ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/Androi
 	android:name
 		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:23:13-62
 activity#com.appsandgamesinc.myapplication.Menu
-ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:29:1-35:14
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:29:3-35:14
 	android:name
-		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:29:11-31
+		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:29:13-33
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:30:4-34:20
 action#android.intent.action.MAIN
@@ -75,6 +75,16 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:33:5-64
 	android:name
 		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:33:15-62
+activity#com.appsandgamesinc.myapplication.Gridview
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:37:3-43:13
+	android:name
+		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:37:13-37
+intent-filter#android.intent.action.GRIDVIEW+android.intent.category.DEFAULT
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:38:3-42:19
+action#android.intent.action.GRIDVIEW
+ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:39:4-59
+	android:name
+		ADDED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml:39:12-57
 uses-sdk
 INJECTED from /Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/me/.android/build-cache/2d0999ae34e5a9e70f8a5809d00e0c19f79c4859/output/AndroidManifest.xml:21:5-23:78
