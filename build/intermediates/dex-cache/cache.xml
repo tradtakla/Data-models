@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5b9499b74358cccec1f38581043ba59d6b30c822">
+        <dex dex="/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_17136fb3d64085e82bbad4dd3fef5610dd7e0ec0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3db9f4b43c75c24ba33f310187f22005f46f753d/classes.dex" />
+    </item>
+
+</items>
