@@ -1,4 +1,4 @@
-#Thu Aug 10 12:09:07 EEST 2017
+#Fri Aug 11 11:58:10 EEST 2017
 file.2=/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66acbaade03b22ca23bfda40ecfcdd8c019cc5d5/classes.dex
 base.2=/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66acbaade03b22ca23bfda40ecfcdd8c019cc5d5
 file.1=/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec6704b52479a083d1ea7e59a5c6dddf83fbbb2d/classes.dex

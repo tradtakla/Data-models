@@ -1,4 +1,4 @@
-#Thu Aug 10 12:09:07 EEST 2017
+#Fri Aug 11 11:58:11 EEST 2017
 base.0=/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 renamed.0=classes.dex
 file.0=/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
