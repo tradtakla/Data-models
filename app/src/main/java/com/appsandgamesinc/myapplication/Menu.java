@@ -27,6 +27,8 @@ public class Menu extends AppCompatActivity
     {
         Button btnListview = (Button) findViewById(R.id.btnListview);
         Button btnGridview = (Button) findViewById(R.id.btnGridview);
+        Button btnListViewRecycler = (Button) findViewById(R.id.btnListViewRecycler);
+        Button btnGridviewRecycler = (Button) findViewById(R.id.btnGridviewRecycler);
 
         btnListview.setOnClickListener(new View.OnClickListener()
         {
@@ -43,6 +45,24 @@ public class Menu extends AppCompatActivity
             public void onClick(View view)
             {
                 startActivity(new Intent(Menu.this, Gridview.class));
+            }
+        });
+
+        btnListViewRecycler.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(Menu.this, ListRecyclerview.class));
+            }
+        });
+
+        btnGridviewRecycler.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(Menu.this, GridRecyclerview.class));
             }
         });
     }

@@ -1,4 +1,4 @@
-package com.appsandgamesinc.myapplication;
+package com.appsandgamesinc.myapplication.Adapters;
 
 
 import android.content.Context;
@@ -14,6 +14,8 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.appsandgamesinc.myapplication.R;
 
 public class GridAdapter extends ArrayAdapter<String>
 {

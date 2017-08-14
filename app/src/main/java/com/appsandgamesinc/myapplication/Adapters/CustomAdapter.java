@@ -1,4 +1,4 @@
-package com.appsandgamesinc.myapplication;
+package com.appsandgamesinc.myapplication.Adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,9 +13,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.appsandgamesinc.myapplication.R;
+
 
 public class CustomAdapter extends ArrayAdapter<String>
 {
+
     private final int[] image;
     private final String[] item;
 
@@ -34,7 +37,6 @@ public class CustomAdapter extends ArrayAdapter<String>
 
         LayoutInflater mInflater = LayoutInflater.from(getContext());
         View customView = mInflater.inflate(R.layout.custom_row, parent, false);
-
 
         ImageView imgView = customView.findViewById(R.id.imgView);
         TextView txtView = customView.findViewById(R.id.txtView);

@@ -35,12 +35,28 @@
 		</activity>
 
 		<activity android:name=".Gridview">
-		<intent-filter>
-			<action android:name="android.intent.action.GRIDVIEW"/>
+			<intent-filter>
+				<action android:name="android.intent.action.GRIDVIEW"/>
 
-			<category android:name="android.intent.category.DEFAULT"/>
-		</intent-filter>
-	</activity>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".ListRecyclerview">
+			<intent-filter>
+				<action android:name="android.intent.action.LISTRECYCLERVIEW"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".GridRecyclerview">
+			<intent-filter>
+				<action android:name="android.intent.action.GRIDRECYCLERVIEW"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
 
 
 </application>

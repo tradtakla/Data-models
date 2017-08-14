@@ -24,16 +24,20 @@
 	</Button>
 
 	<Button
+		android:id="@+id/btnListViewRecycler"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="20dp"
+		android:text="Listview-Recyclerview"
 		android:layout_weight=".25">
 	</Button>
 
 	<Button
+		android:id="@+id/btnGridviewRecycler"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:textSize="20dp"
+		android:text="Gridview-Recyclerview"
 		android:layout_weight=".25">
 	</Button>
 
