@@ -66,6 +66,14 @@
 			</intent-filter>
 		</activity>
 
+		<activity android:name=".Music">
+			<intent-filter>
+				<action android:name="android.intent.action.MUSIC"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+		</activity>
+
 
 </application>
 

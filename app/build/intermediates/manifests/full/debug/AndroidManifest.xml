@@ -64,6 +64,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="com.appsandgamesinc.myapplication.Music" >
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

@@ -168,6 +168,10 @@
         "source": "/Users/me/.android/build-cache/aa0ff725b7d11c55025a6ec2b2c9b08526cbc39b/output/res/layout/abc_screen_content_include.xml"
     },
     {
+        "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/music.xml",
+        "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/music.xml"
+    },
+    {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/me/.android/build-cache/aa0ff725b7d11c55025a6ec2b2c9b08526cbc39b/output/res/layout/abc_list_menu_item_checkbox.xml"
     },

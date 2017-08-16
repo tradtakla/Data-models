@@ -1,6 +1,7 @@
 package com.appsandgamesinc.myapplication;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import com.appsandgamesinc.myapplication.Adapters.CustomAdapter;
 
 public class MainActivity extends AppCompatActivity
 {
+    MediaPlayer mMedia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -23,10 +25,11 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public void populateListview(){
+    public void populateListview()
+    {
 
         final String[] items = {"Marwan", "Charbel", "Michel", "Anthony"};
-        final int[] picture = {R.drawable.landscape, R.drawable.download, R.drawable.gorgeous_stage_background_04_hd_picture_169913,R.drawable.image};
+        final int[] picture = {R.drawable.landscape, R.drawable.download, R.drawable.gorgeous_stage_background_04_hd_picture_169913, R.drawable.image};
 
         final ListAdapter adapter = new CustomAdapter(this, items, picture);
 
@@ -38,12 +41,23 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long l)
             {
-//                Intent profile = new Intent(MainActivity.this, FirstProfile.class);
-//                profile.putExtra("username", items[position]);
-//                profile.putExtra("picture", picture[position]);
-//                startActivity(profile);
-                  Intent video = new Intent(MainActivity.this, Video.class);
-                  startActivity(video);
+                if (position == 0)
+                {
+                    Intent profile = new Intent(MainActivity.this, FirstProfile.class);
+                    profile.putExtra("username", items[position]);
+                    profile.putExtra("picture", picture[position]);
+                    startActivity(profile);
+                }
+                else if (position ==1)
+                {
+                    Intent video = new Intent(MainActivity.this, Video.class);
+                    startActivity(video);
+                }
+                else if (position == 2)
+                {
+                    Intent music = new Intent(MainActivity.this, Music.class);
+                    startActivity(music);
+                }
 
             }
         });

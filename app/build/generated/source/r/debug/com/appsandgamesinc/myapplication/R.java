@@ -2803,34 +2803,36 @@ containing a value of this type.
         public static final int gridview=0x7f040020;
         public static final int list_recyclerview=0x7f040021;
         public static final int menu=0x7f040022;
-        public static final int notification_action=0x7f040023;
-        public static final int notification_action_tombstone=0x7f040024;
-        public static final int notification_media_action=0x7f040025;
-        public static final int notification_media_cancel_action=0x7f040026;
-        public static final int notification_template_big_media=0x7f040027;
-        public static final int notification_template_big_media_custom=0x7f040028;
-        public static final int notification_template_big_media_narrow=0x7f040029;
-        public static final int notification_template_big_media_narrow_custom=0x7f04002a;
-        public static final int notification_template_custom_big=0x7f04002b;
-        public static final int notification_template_icon_group=0x7f04002c;
-        public static final int notification_template_lines_media=0x7f04002d;
-        public static final int notification_template_media=0x7f04002e;
-        public static final int notification_template_media_custom=0x7f04002f;
-        public static final int notification_template_part_chronometer=0x7f040030;
-        public static final int notification_template_part_time=0x7f040031;
-        public static final int select_dialog_item_material=0x7f040032;
-        public static final int select_dialog_multichoice_material=0x7f040033;
-        public static final int select_dialog_singlechoice_material=0x7f040034;
-        public static final int support_simple_spinner_dropdown_item=0x7f040035;
-        public static final int tooltip=0x7f040036;
-        public static final int video=0x7f040037;
+        public static final int music=0x7f040023;
+        public static final int notification_action=0x7f040024;
+        public static final int notification_action_tombstone=0x7f040025;
+        public static final int notification_media_action=0x7f040026;
+        public static final int notification_media_cancel_action=0x7f040027;
+        public static final int notification_template_big_media=0x7f040028;
+        public static final int notification_template_big_media_custom=0x7f040029;
+        public static final int notification_template_big_media_narrow=0x7f04002a;
+        public static final int notification_template_big_media_narrow_custom=0x7f04002b;
+        public static final int notification_template_custom_big=0x7f04002c;
+        public static final int notification_template_icon_group=0x7f04002d;
+        public static final int notification_template_lines_media=0x7f04002e;
+        public static final int notification_template_media=0x7f04002f;
+        public static final int notification_template_media_custom=0x7f040030;
+        public static final int notification_template_part_chronometer=0x7f040031;
+        public static final int notification_template_part_time=0x7f040032;
+        public static final int select_dialog_item_material=0x7f040033;
+        public static final int select_dialog_multichoice_material=0x7f040034;
+        public static final int select_dialog_singlechoice_material=0x7f040035;
+        public static final int support_simple_spinner_dropdown_item=0x7f040036;
+        public static final int tooltip=0x7f040037;
+        public static final int video=0x7f040038;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
         public static final int ic_launcher_round=0x7f030001;
     }
     public static final class raw {
-        public static final int oneminvideo=0x7f060000;
+        public static final int katy=0x7f060000;
+        public static final int oneminvideo=0x7f060001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
