@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long l)
             {
-
-                System.out.println(position);
                 Intent profile = new Intent(MainActivity.this, FirstProfile.class);
                 profile.putExtra("username", items[position]);
                 profile.putExtra("picture", picture[position]);

@@ -1,8 +1,11 @@
 package com.appsandgamesinc.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.appsandgamesinc.myapplication.Adapters.GridAdapter;
@@ -29,11 +32,19 @@ public class Gridview extends AppCompatActivity
 
         GridView gridView = (GridView) findViewById(R.id.gvGrid);
         GridAdapter adapter = new GridAdapter(this, items, picture);
-
-
-
         gridView.setAdapter(adapter);
 
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long l)
+            {
+                Intent profile = new Intent(Gridview.this, FirstProfile.class);
+                profile.putExtra("username", items[position]);
+                profile.putExtra("picture", picture[position]);
+                startActivity(profile);
+            }
+        });
      }
 
 }

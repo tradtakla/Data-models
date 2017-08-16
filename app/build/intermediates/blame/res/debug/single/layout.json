@@ -112,10 +112,6 @@
         "source": "/Users/me/.android/build-cache/acee943250616e46b14fa740b045855fec4f2d6e/output/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/custom_grid.xml",
-        "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/custom_grid.xml"
-    },
-    {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/me/.android/build-cache/aa0ff725b7d11c55025a6ec2b2c9b08526cbc39b/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },

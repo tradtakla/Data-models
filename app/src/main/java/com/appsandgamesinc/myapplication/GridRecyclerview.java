@@ -1,6 +1,7 @@
 package com.appsandgamesinc.myapplication;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,8 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.AdapterView;
 
 import com.appsandgamesinc.myapplication.Adapters.GridRecyclerviewAdapter;
 import com.appsandgamesinc.myapplication.Adapters.ListRecyclerviewAdapter;
@@ -35,10 +38,13 @@ public class GridRecyclerview extends AppCompatActivity
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rvNumbers);
 
-        GridRecyclerviewAdapter mAdapter = new GridRecyclerviewAdapter(peopleAL);
+        GridRecyclerviewAdapter mAdapter = new GridRecyclerviewAdapter(GridRecyclerview.this, peopleAL);
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getApplicationContext(),3);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
+
+
     }
+
 }
