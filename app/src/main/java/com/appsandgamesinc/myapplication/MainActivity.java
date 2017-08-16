@@ -38,10 +38,13 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long l)
             {
-                Intent profile = new Intent(MainActivity.this, FirstProfile.class);
-                profile.putExtra("username", items[position]);
-                profile.putExtra("picture", picture[position]);
-                startActivity(profile);
+//                Intent profile = new Intent(MainActivity.this, FirstProfile.class);
+//                profile.putExtra("username", items[position]);
+//                profile.putExtra("picture", picture[position]);
+//                startActivity(profile);
+                  Intent video = new Intent(MainActivity.this, Video.class);
+                  startActivity(video);
+
             }
         });
     }

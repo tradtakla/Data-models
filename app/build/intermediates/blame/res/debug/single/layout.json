@@ -136,6 +136,10 @@
         "source": "/Users/me/.android/build-cache/b6f1abef09788757db5a92c5622a38cd782e5d1e/output/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/video.xml",
+        "source": "/Users/me/Desktop/Workspace/Android/MyApplication/app/src/main/res/layout/video.xml"
+    },
+    {
         "merged": "/Users/me/Desktop/Workspace/Android/MyApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/me/.android/build-cache/aa0ff725b7d11c55025a6ec2b2c9b08526cbc39b/output/res/layout/abc_action_mode_close_item_material.xml"
     },
