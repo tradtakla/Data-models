@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.appsandgamesinc.myapplication.Adapters.GridRecyclerviewAdapter;
 import com.appsandgamesinc.myapplication.Adapters.ListRecyclerviewAdapter;
 import com.appsandgamesinc.myapplication.Models.People;
 
@@ -31,10 +33,10 @@ public class GridRecyclerview extends AppCompatActivity
         peopleAL.add(new People("Takla Trad", R.drawable.gorgeous_stage_background_04_hd_picture_169913));
         peopleAL.add(new People("Marwan Harb", R.drawable.landscape));
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rvPeople);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rvNumbers);
 
-        ListRecyclerviewAdapter mAdapter = new ListRecyclerviewAdapter(peopleAL);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+        GridRecyclerviewAdapter mAdapter = new GridRecyclerviewAdapter(peopleAL);
+        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getApplicationContext(),3);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
